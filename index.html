@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Nav Section -->
+  <section>
+    <nav class="container mx-auto flex justify-between flex-col md:flex-row lg:flex-row py-5 items-center gap-6 border-b-2">
+      <div>
+        <img src="./assets/SK Logo.png" alt="">
+      </div>
+      <div class="flex items-center">
+        <input type="text" placeholder="Search" class="input input-bordered max-w-lg" />
+        <button class="btn text-white font-bold text-2xl bg-red-600"> Search</button>
+      </div>
+      <div>
+        <button class="btn text-white font-bold text-2xl bg-red-600"> Sort</button>
+      </div>
+    </nav>
+  </section>
+<!-- Catagory Section -->
+  <section id="catagory-div" class="flex justify-center items-center py-4">
+  </section>
+
+  <!-- Video Card Section -->
+   <section class="container mx-auto">
+    <div id="video-card-div" class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+
+    </div>
+   </section>
+
+
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
